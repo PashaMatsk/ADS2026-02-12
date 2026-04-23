@@ -18,7 +18,6 @@ public class FiboC {
     long fasterC(long n, int m) {
         if (n == 1)
             return n % m;
-
         long prev = 0;
         long curr = 1;
         long period = 0;
