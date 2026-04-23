@@ -55,7 +55,6 @@ public class C_GreedyKnapsack {
         System.out.printf("Удалось собрать рюкзак на сумму %f\n", result);
         return result;
     }
-
     private static class Item implements Comparable<by.it.group551003.matskevich.lesson02.C_GreedyKnapsack.Item> {
         int cost;
         int weight;

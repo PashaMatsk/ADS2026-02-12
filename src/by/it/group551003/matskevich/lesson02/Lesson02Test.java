@@ -20,7 +20,6 @@ public class Lesson02Test {
     Search for test:    In whole project
     */
 
-
     @Test(timeout = 2000)
     public void checkA_videoRegistrator() {
         by.it.group551003.matskevich.lesson02.A_VideoRegistrator instance = new A_VideoRegistrator();

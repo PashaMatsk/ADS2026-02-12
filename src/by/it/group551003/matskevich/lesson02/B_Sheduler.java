@@ -24,7 +24,6 @@ public class B_Sheduler {
         List<by.it.group551003.matskevich.lesson02.B_Sheduler.Event> starts = instance.calcStartTimes(events, 0, 10);  //рассчитаем оптимальное заполнение аудитории
         System.out.println(starts);                                 //покажем рассчитанный график занятий
     }
-
     List<by.it.group551003.matskevich.lesson02.B_Sheduler.Event> calcStartTimes(by.it.group551003.matskevich.lesson02.B_Sheduler.Event[] events, int from, int to) {
         //Events - события которые нужно распределить в аудитории
         //в период [from, int] (включительно).
